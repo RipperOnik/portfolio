@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.dc5d0fed.css",
+    "main.js": "/portfolio/static/js/main.a8a86671.js",
+    "static/media/furni-store.png": "/portfolio/static/media/furni-store.43d5d4fa4d03f05c4b73.png",
+    "static/media/cloud-drive.png": "/portfolio/static/media/cloud-drive.5cab1f47b2237d963ba7.png",
+    "static/media/jobster.png": "/portfolio/static/media/jobster.a20095295206e7ff0c7c.png",
+    "index.html": "/portfolio/index.html",
+    "main.dc5d0fed.css.map": "/portfolio/static/css/main.dc5d0fed.css.map",
+    "main.a8a86671.js.map": "/portfolio/static/js/main.a8a86671.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc5d0fed.css",
+    "static/js/main.a8a86671.js"
+  ]
+}
