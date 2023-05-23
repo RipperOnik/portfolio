@@ -30,6 +30,7 @@ const Wrapper = styled.article`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 1rem;
 
     h1 {
         margin-top: 50px;
