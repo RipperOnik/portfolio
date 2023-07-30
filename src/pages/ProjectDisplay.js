@@ -27,6 +27,7 @@ const Wrapper = styled.article`
 
     width: 100%;
     display: flex;
+    min-height: calc(100vh - 300px);
     justify-content: center;
     align-items: center;
     flex-direction: column;

@@ -11,7 +11,6 @@ export default function Projects() {
                 {projectList.map((project, index) => {
                     return <ProjectItem name={project.name} image={project.image} id={index} />
                 })}
-
             </div>
         </Wrapper>
     )
@@ -20,7 +19,7 @@ export default function Projects() {
 const Wrapper = styled.main`
 
     width: 100%;
-    height: auto;
+    min-height: calc(100vh - 300px);
     display: flex;
     justify-content: center;
     align-items: center;

@@ -11,7 +11,6 @@ export default function Footer() {
                 <a href={socialMediaLinks.whatsapp}><WhatsApp /></a>
             </div>
             <p>&copy; 2023 Andrey Kan</p>
-
         </Wrapper>
     )
 }
@@ -25,8 +24,8 @@ const Wrapper = styled.footer`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 10px;
-    margin-top: 200px;
+    /* padding-top: 10px; */
+    /* margin-top: 200px; */
     
 
     .social-media svg {

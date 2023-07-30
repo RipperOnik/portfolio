@@ -23,17 +23,17 @@ export default function Home() {
                         <h2>Front-End</h2>
                         <span>ReactJS, Redux, HTML, CSS, Bootstrap, StyledComponents</span>
                     </li>
-                    {/* <li className='item'>
+                    <li className='item'>
                         <h2>Back-End</h2>
-                        <span></span>
-                    </li> */}
+                        <span>NodeJS, Express, MongoDB, SQL</span>
+                    </li>
                     <li className='item'>
                         <h2>Languages</h2>
                         <span>JavaScript, TypeScript</span>
                     </li>
                 </ol>
             </article>
-        </Wrapper >
+        </Wrapper>
     )
 }
 
@@ -44,8 +44,8 @@ const Wrapper = styled.main`
     align-items: center;
     font-family: "Arial", sans-serif;
     color: #3e497a;
+    min-height: calc(100vh - 300px);
     
-
     .about {
     width: 100%;
     height: calc(100vh - 100px);
@@ -77,6 +77,7 @@ const Wrapper = styled.main`
 
     .skills {
     font-size: 35px;
+    padding: 30px 0;
     width: 100%;
     display: flex;
     justify-content: center;
